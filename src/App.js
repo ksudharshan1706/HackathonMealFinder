@@ -1,10 +1,13 @@
-import Navbar from "./componants/Navbar";
-import ViewDishes from "./componants/ViewDishes";
-import logo from "./logo.svg";
-import "./app.css";
+import Navbar from "./componants/Navbar/Navbar";
+import ViewDishes from "./componants/dish/ViewDishes";
 function App() {
   return (
-    <div className="app">
+    <div
+      style={{
+        backgroundImage: `url("https://static.toiimg.com/photo/92522961.cms")`,
+        height: "100%",
+      }}
+    >
       <Navbar />
       <ViewDishes />
     </div>

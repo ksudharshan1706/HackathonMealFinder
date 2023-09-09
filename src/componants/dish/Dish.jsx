@@ -1,5 +1,5 @@
 import React from 'react'
-import "../viewdishes.css"
+import "./viewdishes.css"
 import YouTubeIcon from '@mui/icons-material/YouTube';
 const Dish = ({dish}) => {
   return (

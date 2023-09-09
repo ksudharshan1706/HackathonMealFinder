@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios"
 import "./viewdishes.css"
-import Dish from './dish/Dish';
+import Dish from './Dish';
 const ViewDishes = () => {
     const [dishes,setDishes] = useState([]);
     const [food,setFood] = useState("")
@@ -13,7 +13,7 @@ const ViewDishes = () => {
     useEffect(()=>{
         const getDishes = async() =>{
         const foodname = food
-        if(food != ""){
+        if(food !== ""){
         const res = await axios.get(`https://www.themealdb.com/api/json/v1/1/search.php?s=${foodname}`)
         console.log(res.data.meals)
         if(res.data.meals != null)
