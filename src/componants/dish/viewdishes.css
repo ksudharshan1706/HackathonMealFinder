@@ -18,7 +18,7 @@
     border: 2px solid;
     flex-wrap: wrap;
     border-radius: 10px;
-    background-color: wheat;
+    background-color: rgb(242, 231, 212);
 }
 .dishImg{
     /* margin-left: 4%; */

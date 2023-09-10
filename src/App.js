@@ -4,8 +4,11 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: `url("https://static.toiimg.com/photo/92522961.cms")`,
-        height: "100%",
+        backgroundImage: `url("https://cutewallpaper.org/27/calming-colors-desktop-wallpaper/1230313718.jpg")`,
+        // backgroundColor: "blue",
+        height: "100vh",
+        backgroundSize: "cover",
+        overflow: "auto",
       }}
     >
       <Navbar />
